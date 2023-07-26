@@ -13,7 +13,7 @@ jobs:
 
       - name: Install, lint, build 🔧
         run: |
-          npm create vite@latest
+          npm create vite@latest . -- --template react
           npm install 
           npm run lint
           npm run build
