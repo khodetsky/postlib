@@ -79,7 +79,7 @@ Error generating stack: `+i.message+`
     align-items: center;
 
     background-color: rgba(12, 13, 15, 0.7);
-`,cc=({children:e})=>F.jsx(Aw,{children:e});cc.propTypes={children:Ct.node};const jw="/assets/logo-dab041a5.webp",Iw=ae.div`
+`,cc=({children:e})=>F.jsx(Aw,{children:e});cc.propTypes={children:Ct.node};const jw="/postlib/assets/logo-dab041a5.webp",Iw=ae.div`
     width: 100%;
     display: flex;
     justify-content: center;
@@ -385,7 +385,7 @@ Error generating stack: `+i.message+`
     ${Nn}:hover &, ${Nn}:focus & {
         fill: black;
     };
-`,C2="/assets/sprite-30dbdc34.svg",Xg=()=>F.jsx(Nn,{children:F.jsxs(x2,{to:"/",children:[F.jsx(k2,{children:F.jsx(E2,{href:C2+"#arrow-left"})}),"Go back"]})});Xg.propTypes={location:Ct.arrayOf(Ct.object)};const _2=ae.div`
+`,C2="/postlib/assets/sprite-30dbdc34.svg",Xg=()=>F.jsx(Nn,{children:F.jsxs(x2,{to:"/",children:[F.jsx(k2,{children:F.jsx(E2,{href:C2+"#arrow-left"})}),"Go back"]})});Xg.propTypes={location:Ct.arrayOf(Ct.object)};const _2=ae.div`
     position: relative;
     display: flex;
     justify-content: center;
