@@ -11,8 +11,8 @@ export const App = () => {
     <>
       <GlobalStyles />
       <Routes>
-        <Route path="posts" element={<MainPage />} />
-        <Route path="comments/:postId" element={<CommentsPage />} />
+        <Route path="/posts" element={<MainPage />} />
+        <Route path="/comments/:postId" element={<CommentsPage />} />
       </Routes>
     </>
   )
