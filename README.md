@@ -3,9 +3,9 @@
 This is a website that hosts posts by different users and comments on each individual post.
 The site has a simple responsive design and implementation of two pages.
 
-- Home page
+- Home page.
   When the page is loaded from the server, the posts of all users are loaded and 10 random ones are displayed as a list. Each item in the list has the name of the post, the main text is the name of the author. Also, the page contains a drop-down menu in which you can select an individual user and then only his posts will be on the page. When you click on an individual post, you will be taken to a page with comments on the corresponding post
-- Page with comments
+- Page with comments.
   This page contains a header with the post id and a button that returns to the main page. The main content of the page is a list of comments on this post. Each comment contains a title, body text, and the name of the user who left the comment.
 
 ## Preparation.
