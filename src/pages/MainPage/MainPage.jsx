@@ -21,6 +21,7 @@ export const MainPage = () => {
 
     useEffect(() => {
         if (posts.length > 0 && users.length > 0) {
+            console.log('work', Date.now())
             setStatus("done")
         }
     }, [posts, users])

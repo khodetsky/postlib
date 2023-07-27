@@ -28,6 +28,7 @@ export const UserSelect = ({ users, setPosts, setStatus }) => {
                 getUserPosts(user.id).then(r => setPosts(r));
             } else if(username === initOption.username) {
                 getRandomPosts().then(r => setPosts(r));
+                break;
             }
         }
     }
