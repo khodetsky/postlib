@@ -6,7 +6,7 @@ export const PostsList = ({ posts, users}) => {
 
     return (
         <List>
-            {posts && (
+            {(posts && users) && (
                 posts.map(post => (
                     <li key={post.id}>
                         <LinkStyled to={`/comments/${post.id}`}>
