@@ -21,7 +21,13 @@ export const Title = styled.h1`
     color: #FFF;
 
     @media screen and (max-width: 472px) {
-        font-size: 24px;
+        font-size: 22px;
+    }
+    @media screen and (max-width: 422px) {
+        font-size: 20px;
+    }
+    @media screen and (max-width: 360px) {
+        font-size: 16px;
     }
 `
 

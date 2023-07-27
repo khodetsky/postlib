@@ -16,6 +16,11 @@ export const FilterLabel = styled.label`
     line-height: 22px;
 
     margin-right: 10px;
+
+    @media screen and (max-width: 365px) {
+        font-size: 18px;
+        margin-right: 5px;
+    }
 `
 
 export const Select = styled.select`
@@ -34,5 +39,9 @@ export const Select = styled.select`
     &:focus {
       color: black;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    
+    @media screen and (max-width: 365px) {
+        font-size: 18px;
     }
 `

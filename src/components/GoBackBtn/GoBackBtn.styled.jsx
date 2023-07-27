@@ -20,6 +20,10 @@ export const ButtonStyled = styled.div`
         color: black;
         border-color: black;
     }
+
+    @media screen and (max-width: 375px) {
+        font-size: 16px;
+    }
 `
 
 export const ButtonLink = styled(Link)`
@@ -36,12 +40,21 @@ export const ButtonLink = styled(Link)`
     ${ButtonStyled}:has(> &:focus) { 
         border-color: black;
     }
+
+    @media screen and (max-width: 375px) {
+        padding: 4px 8px;
+    }
 `
 
 export const ButtonArrowSvg = styled.svg`
     margin-right: 5px;
     width: 15px;
     height: 15px;
+
+    @media screen and (max-width: 375px) {
+        width: 12px;
+        height: 12px;
+    }
 `
 
 export const ButtonIcon = styled('use')`
@@ -54,4 +67,9 @@ export const ButtonIcon = styled('use')`
     ${ButtonStyled}:hover &, ${ButtonStyled}:focus & {
         fill: black;
     };
+
+    @media screen and (max-width: 375px) {
+        width: 12px;
+        height: 12px;
+    }
 `
