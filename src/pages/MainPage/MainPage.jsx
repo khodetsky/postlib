@@ -20,10 +20,10 @@ export const MainPage = () => {
     }, [])
 
     useEffect(() => {
-        if (posts) {
+        if (posts.length > 0 && users.length > 0) {
             setStatus("done")
         }
-    }, [posts])
+    }, [posts, users])
 
 
     return (
