@@ -7,7 +7,7 @@ export const GoBackBtn = () => {
 
     return (
         <ButtonStyled>
-            <ButtonLink to={'/posts'}>
+            <ButtonLink to={'/'}>
                 <ButtonArrowSvg>
                     <ButtonIcon href={svgSprite + '#arrow-left'}></ButtonIcon>
                 </ButtonArrowSvg>
